@@ -1,0 +1,6 @@
+.vscode/**
+.gitignore
+images/**
+!images/icon.png
+*.vsix
+CONTRIBUTING.md

@@ -1,0 +1,39 @@
+{
+    "name": "snap-draw-canvas",
+    "publisher": "local",
+    "displayName": "SnapDraw — Floating Image Annotator",
+    "description": "Paste or upload images side-by-side and draw illustrations over them.",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.85.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [],
+    "main": "./extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "snapdraw.open",
+                "title": "SnapDraw: Open Floating Image Canvas",
+                "icon": "$(paintcan)"
+            }
+        ],
+        "menus": {
+            "editor/title": [
+                {
+                    "command": "snapdraw.open",
+                    "group": "navigation"
+                }
+            ]
+        },
+        "keybindings": [
+            {
+                "command": "snapdraw.open",
+                "key": "ctrl+alt+d",
+                "mac": "cmd+alt+d"
+            }
+        ]
+    }
+}
