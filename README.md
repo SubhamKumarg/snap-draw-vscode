@@ -1,6 +1,8 @@
 <div align="center">
 
-# 🎨 SnapDraw
+<img src="images/logo.png" alt="SnapDraw logo" width="140">
+
+# SnapDraw
 
 ### Paste a screenshot. Annotate it. Copy it back. Never leave VS Code.
 
